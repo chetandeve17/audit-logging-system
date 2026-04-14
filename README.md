@@ -123,26 +123,8 @@ flowchart TD
 
 ## 👨‍💻 Author
 
-**Chetan**
-🎓 MCA Student | 💻 Aspiring Full Stack Developer
+**Chetan Deve**
 
----
-
-## 📄 License
-
-This project is for academic and learning purposes.
-
----
-
-## ⭐ Support
-
-If you like this project:
-
-* ⭐ Star this repository
-* 🍴 Fork it
-* 📢 Share it
-
----
 
 <p align="center">
   Made with ❤️ by Chetan
