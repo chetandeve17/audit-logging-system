@@ -1,0 +1,10 @@
+{"id": "7e374d56-e87d-4135-926e-46acbf03ce74", "time": "2026-04-14 23:57:05", "action": "User Login"}
+{"id": "547f27a3-c415-41c4-9b39-8766c9870c8f", "time": "2026-04-14 23:57:05", "action": "Start Test"}
+{"id": "43b25ff3-d6d5-491f-867d-3d668233af2f", "time": "2026-04-14 23:57:05", "action": "Answer Question 1"}
+{"id": "6da78c69-4bae-40a9-bc63-852eecc11906", "time": "2026-04-14 23:57:05", "action": "Skip Question 2"}
+{"id": "fbea92e1-eb9b-42bf-9ec1-28f4fd8d7759", "time": "2026-04-14 23:57:05", "action": "Submit Test"}
+{"log_id": "a3300bc9-acbb-44b2-9191-f3baefbe5eaa", "timestamp": "2026-04-14 23:58:44", "user_id": "CAND001", "role": "Candidate", "action": "Login", "module": "Auth", "status": "Success", "details": "User logged in"}
+{"log_id": "7d9da4a5-60b6-487b-aa72-78d6ca4a19d1", "timestamp": "2026-04-14 23:58:44", "user_id": "CAND001", "role": "Candidate", "action": "Start Test", "module": "Assessment", "status": "Success", "details": "Test started"}
+{"log_id": "77b263b9-93b4-43ae-87be-19f885dcfd5b", "timestamp": "2026-04-14 23:58:44", "user_id": "CAND001", "role": "Candidate", "action": "Answer Q1", "module": "Question Engine", "status": "Success", "details": "Answered Question 1"}
+{"log_id": "438f3715-fbde-4ca6-bcde-05dc99b9d247", "timestamp": "2026-04-14 23:58:44", "user_id": "CAND001", "role": "Candidate", "action": "Skip Q2", "module": "Question Engine", "status": "Success", "details": "Skipped Question 2"}
+{"log_id": "37025019-e8bf-4752-a7a8-0d60c41c6301", "timestamp": "2026-04-14 23:58:44", "user_id": "CAND001", "role": "Candidate", "action": "Submit Test", "module": "Assessment", "status": "Success", "details": "Test submitted"}
