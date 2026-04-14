@@ -2,32 +2,33 @@
 
 <p align="center">
   <b>Track • Monitor • Secure • Analyze</b><br>
-  A production-ready logging system built in Python 🚀
+  Production-ready logging system with API & Dashboard 🚀
 </p>
 
 ---
 
 ## 📌 Project Overview
 
-The **Advanced Event Logging & Audit Trail System** is designed to record and monitor every action performed within a system.
+The **Advanced Event Logging & Audit Trail System** is designed to track and record every action performed within a system.
 
-This module is part of the **AI Interview and Assessment System**, ensuring:
+This project is part of the **AI Interview and Assessment System** and now includes:
 
-* 🔍 Full transparency
-* 🛠️ Easy debugging
-* 🔐 Improved security
+* ⚡ FastAPI backend integration
+* 📊 Real-time dashboard visualization
+* 📄 Structured logging system
 
 ---
 
 ## ✨ Features
 
-* 📌 Full audit trail of all user actions
+* 📌 Full audit trail of all system actions
 * ⏱️ Timestamp-based logging
 * 🆔 Unique log ID for each event
-* 👤 Tracks user (ID & role)
-* 🧩 Module-wise tracking (Auth, Assessment, etc.)
-* 📄 JSON structured logs
-* ⚡ Lightweight and easy to integrate
+* 👤 Tracks user ID and role
+* 🧩 Module-based tracking (Auth, Assessment, etc.)
+* 🌐 FastAPI API integration
+* 📊 Streamlit dashboard for log visualization
+* 📄 JSON-based storage
 
 ---
 
@@ -35,28 +36,32 @@ This module is part of the **AI Interview and Assessment System**, ensuring:
 
 ```
 audit_project/
-│── audit_logger.py   # Core logging module
-│── main.py           # Simulation script
-│── audit_logs.json   # Generated logs
+│── audit_logger.py      # Core logging module
+│── main.py              # Basic simulation
+│── app.py               # FastAPI backend
+│── dashboard.py         # Streamlit dashboard
+│── audit_logs.json      # Generated logs
 ```
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology | Purpose            |
-| ---------- | ------------------ |
-| Python 🐍  | Core development   |
-| JSON 📄    | Log storage format |
+| Technology   | Purpose          |
+| ------------ | ---------------- |
+| Python 🐍    | Core development |
+| FastAPI ⚡    | Backend API      |
+| Streamlit 📊 | Dashboard UI     |
+| JSON 📄      | Log storage      |
 
 ---
 
 ## ▶️ Getting Started
 
-### 🔹 Clone the Repository
+### 🔹 Clone Repository
 
 ```
-git clone https://github.com/your-username/audit-logging-system.git
+git clone https://github.com/chetandeve17/audit-logging-system.git
 ```
 
 ### 🔹 Navigate to Project
@@ -65,11 +70,31 @@ git clone https://github.com/your-username/audit-logging-system.git
 cd audit-logging-system
 ```
 
-### 🔹 Run the Project
+---
+
+## 🚀 Run Backend (FastAPI)
 
 ```
-python main.py
+uvicorn app:app --reload
 ```
+
+Open in browser:
+
+```
+http://127.0.0.1:8000/login
+http://127.0.0.1:8000/start-test
+http://127.0.0.1:8000/submit
+```
+
+---
+
+## 📊 Run Dashboard
+
+```
+streamlit run dashboard.py
+```
+
+👉 Opens dashboard in browser showing logs
 
 ---
 
@@ -92,32 +117,30 @@ python main.py
 
 ## 🧠 How It Works
 
-```mermaid
-flowchart TD
-    A[User Action] --> B[Logger Triggered]
-    B --> C[Generate ID & Timestamp]
-    C --> D[Store in JSON File]
-    D --> E[Audit Trail Available]
-```
+1. User performs an action
+2. FastAPI API is triggered
+3. Logger records event
+4. Log stored in JSON file
+5. Dashboard displays logs
 
 ---
 
 ## 🚀 Future Enhancements
 
 * 🗄️ Database Integration (MySQL / MongoDB)
-* 📊 Admin Dashboard for log visualization
 * ⚠️ Suspicious activity detection
-* 🌐 FastAPI integration
 * 📈 Real-time monitoring system
+* 🔐 Authentication & security layer
+* 📊 Advanced analytics dashboard
 
 ---
 
 ## 🏆 Key Highlights
 
-✔ Industry-level logging structure
-✔ Easy integration into backend systems
-✔ Helps in debugging and tracking
-✔ Scalable for production systems
+✔ API-based logging system
+✔ Real-time dashboard visualization
+✔ Modular and scalable design
+✔ Easy integration into any backend
 
 ---
 
